@@ -27,7 +27,7 @@ gd::string HookedLevelTools::getAudioFileName(int audioID) {
     switch(audioID) {
         case 40: return "Active.mp3"_spr; //active
         case 41: return "ThunderZone.mp3"_spr; //thunderzone
-        case 42: return "Earthsplitter.mp3"_spr; //earthsplitter
+        case 42: return "MindBrand.mp3"_spr; //earthsplitter
         case 43: return "SpaceBattle.mp3"_spr; //space battle
         case 44: return "PowerGlove.mp3"_spr; //power glove
         case 45: return "Payback.mp3"_spr; //payback

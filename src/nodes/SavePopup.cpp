@@ -43,7 +43,7 @@ bool SavePopup::init() {
 
     m_mainLayer->addChild(m_title);
 
-    m_textArea = TextArea::create("<cl>Lunar</c> uses a different save file,\nall save data <cl>will be restored</c>\nwhen you turn off the mod.", "bigFont.fnt", 1.f, 1000.f, {0.5, 1.F}, 42.f, false);
+    m_textArea = TextArea::create("<cl>SOLVER</c> uses a different save file,\nall save data <cl>will be restored</c>\nwhen you turn off the mod.", "bigFont.fnt", 1.f, 1000.f, {0.5, 1.F}, 42.f, false);
     m_textArea->setPosition({winSize.width / 2, winSize.height / 2 + 15.f});
     m_textArea->setScale(0.5f);
 

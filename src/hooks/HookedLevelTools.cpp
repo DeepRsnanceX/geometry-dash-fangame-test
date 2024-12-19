@@ -10,7 +10,7 @@ gd::string HookedLevelTools::getAudioTitle(int audioID) {
     switch(audioID) {
         case 40: return "Active";
         case 41: return "ThunderZone";
-        case 42: return "Earthsplitter";
+        case 42: return "Mind Brand";
         case 43: return "Space Battle";
         case 44: return "Power Glove";
         case 45: return "Payback";
@@ -117,10 +117,10 @@ GJGameLevel* HookedLevelTools::getLevel(int levelID, bool loaded) {
             level->m_coins = 3;
             break;
         case 3:
-            setLevelInfo(level, 4, GJDifficulty::Harder, 0, 19858); //earthsplitter
+            setLevelInfo(level, 4, GJDifficulty::Hard, 0, 19858); //earthsplitter
             level->m_levelName = getAudioTitle(42);
             level->m_audioTrack = 42;
-            level->m_coins = 3;
+            level->m_coins = 0;
             break;
         case 4:
             setLevelInfo(level, 6, GJDifficulty::Insane, 0, 18787); //space battle
